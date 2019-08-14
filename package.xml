@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Zero1_Customshipprice</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://shop.zero1.co.uk/LICENSE.txt">Commercial</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Set a custom shipping price in Admin for orders</summary>
+    <description>Allows a custom shipping price to be entered into the admin system when placing orders.</description>
+    <notes>Removing all the licensing requirements.&#xD;
+</notes>
+    <authors><author><name>Arron Moss</name><user>zero1limited</user><email>arron.moss@zero1.co.uk</email></author></authors>
+    <date>2013-03-21</date>
+    <time>21:35:09</time>
+    <contents><target name="magecommunity"><dir name="Zero1"><dir name="Customshipprice"><dir name="Helper"><file name="Data.php" hash="ba9c722115a8371684a3a1955af2b88a"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Create.php" hash="f642fc1a7450929ce77e0668c2a1c94d"/></dir></dir></dir><dir name="Carrier"><file name="Customshipprice.php" hash="888632345045787c44ed435969573996"/></dir></dir><dir name="etc"><file name="config.xml" hash="2f7fa5f9dfdc89991db82a4a07807755"/><file name="system.xml" hash="7219383cace47f7a86ce10f8bc552638"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Zero1_Customshipprice.xml" hash="69e1410bd9095aa1fdc387ca88fa572f"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="customshipprice.xml" hash=""/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
