@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Zero1_Customshipprice",
+    "name": "OpenMageModuleFostering\/Zero1_Customshipprice",
     "type": "magento-module",
     "license": "Commercial",
     "homepage": "",
     "description": "Set a custom shipping price in Admin for orders",
     "authors": [
-    {
-        "name": "Arron Moss",
-        "email": "arron.moss@zero1.co.uk"
-    }
-],
+        {
+            "name": "Arron Moss",
+            "email": "arron.moss@zero1.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
